@@ -1485,6 +1485,12 @@ button {
   font-size: var(--normal-font-size);
   color: var(--var-color);
 }
+/* -- Mine -- */
+.Presentation {
+  font-size: var(--normal-font-size);
+  color: var(--var-color);
+}
+
 /* -- Works -- */
 .works {
   padding-right: 20px !important;
