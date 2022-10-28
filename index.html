@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ahmed Algebali Portfolio Website" />
+  <meta name="theme-color" content="#343539" />
+  <title>Ahmed Algebali</title>
+  <!-- Link added -->
+  <link rel="shortcut icon" href="assets/imgs/per2.png" />
+  <link rel="apple-touch-icon" href="#" />
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"> -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Render all elements -->
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="load" id="loader"></div>
+  <div class="content">
+    <div class="container">
+      <div class="toggle-side">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="left-side">
+
+        <div class="my-info">
+          <div class="my-img">
+            <img src="assets/imgs/meme.jpg" alt="My Image In Left Side" />
+          </div>
+          <div class="my-name">Ahmed Algebali</div>
+          <a class="my-cv but" href="assets/pdf/myCV.pdf" aria-label="Download CV" target="_blank">Download CV</a>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link" aria-label="Home">
+                <i class="bi bi-house"></i>
+                <span class="item-name"> home </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" aria-label="About">
+                <i class="bi bi-person"></i>
+                <span class="item-name"> about </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link" aria-label="Resume">
+                <i class="bi bi-clipboard-check"></i>
+                <span class="item-name"> resume </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#works" class="nav-link" aria-label="Works">
+                <i class="bi bi-collection"></i>
+                <span class="item-name"> works </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link" aria-label="Blog">
+                <i class="bi bi-book"></i>
+                <span class="item-name"> blog </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" aria-label="Contact">
+                <i class="bi bi-geo-alt"></i>
+                <span class="item-name"> contact </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main class="main">
+        <div class="main-content">
+
+          <section class="home section">
+            <div class="home-img">
+              <img src="assets/imgs/meme.jpg" alt="My Image in Home section" />
+            </div>
+            <div class="home-text">
+              <div class="home-job">Full stack developer</div>
+              <div class="home-hello">
+                Hello, I’m
+                <span class="home-my-name"> Ahmed Algebali </span>
+                Welcome to my World.
+              </div>
+              <button class="home-works but" aria-label="Recent Works In Home">Recent Works</button>
+            </div>
+
+            <div class="home-main-img">
+              <img src="assets/imgs/responsive-dark.png" alt="responsive home img" />
+            </div>
+          </section>
+
+          <section class="section about">
+            <div class="about-me">
+              <div class="about-me-img">
+                <img src="assets/imgs/about.jpg" alt="About Image" />
+              </div>
+              <div class="about-me-text">
+                <h2 class="about-me-head">
+                  A short story about me, my mission, thinking and craft
+                </h2>
+                <p class="about-me-par">
+                  I’m a Full stack web developer
+                </p>
+              </div>
+              <div class="about-info">
+                <div class="flex-info">
+                  <div class="about-info-r">
+                    <h4 class="about-title">
+                      Website :
+                      <span class="about-des"> <a class="about-dess" href="https://github.com/ahmdalgebali">Github</a>
+                      </span>
+                    </h4>
+                    <h4 class="about-title">
+                      Phone :
+                      <span class="about-des"> +20 106 620 5027</span>
+                    </h4>
+                    <h4 class="about-title">
+                      City :
+                      <span class="about-des"> Mit Ghamr City</span>
+                    </h4>
+                  </div>
+                  <div class="about-info-l">
+                    <h4 class="about-title">
+                      Age :
+                      <span class="about-des"> 25 </span>
+                    </h4>
+                    <h4 class="about-title">
+                      Degree :
+                      <span class="about-des"> Bachelor </span>
+                    </h4>
+                    <h4 class="about-title">
+                      Freelance :
+                      <span class="about-des"> Available </span>
+                    </h4>
+                  </div>
+                </div>
+                <button class="hire-me" aria-label="Hire Me">hire me</button>
+              </div>
+            </div>
+            <div class="about-icons">
+              <div class="about-icon-box">
+                <i class="bi bi-front"></i>
+                <div class="icon-num" data-number="1">1</div>
+                <div class="icon-box-name">Frontend</div>
+              </div>
+              <div class="about-icon-box">
+                <i class="bi bi-laptop"></i>
+                <div class="icon-num" data-number="25">2</div>
+                <div class="icon-box-name">Full stack Web application</div>
+              </div>
+              <div class="about-icon-box">
+                <i class="bi bi-back"></i>
+                <div class="icon-num" data-number="25">1</div>
+                <div class="icon-box-name">Backend</div>
+              </div>
+              <div class="about-icon-box">
+                <i class="bi bi-journal-check"></i>
+                <div class="icon-num" data-number="25">1</div>
+                <div class="icon-box-name">Project Done</div>
+              </div>
+            </div>
+            <div class="about-skills">
+              <div class="about-box1">
+                <div class="skills-text">
+                  <h2 class="skills-head">
+                    I have been able to experience this type of Skills
+                  </h2>
+                  <p class="skills-par">
+                    I was doing everything in my power to have all
+                    the experiences to provide cost-effective and high quality
+                    products to the people i work with.
+                  </p>
+                </div>
+              </div>
+              <div class="about-box2">
+                <ul class="about-knowledge">
+                  <li>Compatibility</li>
+                  <li>Support</li>
+                  <li>Speed</li>
+                </ul>
+              </div>
+              <div class="about-box3">
+                <div class="skills-design">
+                  <h2 class="design-head title">Skills</h2>
+                  <div class="skill-item">
+                    <h4 class="skill-name">Back-end</h4>
+                    <div class="skill-show">
+                      <span class="span-show" data-width="60%"></span>
+                      <div class="skill-per">
+                        <span class="span-text" data-width="60">0</span><span>%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h4 class="skill-name">data structure & algorithm</h4>
+                    <div class="skill-show">
+                      <span class="span-show" data-width="40%"></span>
+                      <div class="skill-per">
+                        <span class="span-text" data-width="40">0</span><span>%</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <h4 class="skill-name">Java</h4>
+                    <div class="skill-show">
+                      <span class="span-show" data-width="70%"></span>
+                      <div class="skill-per">
+                        <span class="span-text" data-width="70">0</span><span>%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-box4">
+                <h2 class="design-head title">Design Skills</h2>
+                <div class="lang-box">
+                  <h6 class="lang-head">Arbic <span>Fluent</span></h6>
+                  <ul class="lang-list">
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item ha"></li>
+                  </ul>
+                </div>
+                <div class="lang-box">
+                  <h6 class="lang-head">English <span>Fluent</span></h6>
+                  <ul class="lang-list">
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item bg"></li>
+                    <li class="lang-item ha"></li>
+                    <li class="lang-item bo"></li>
+                    <li class="lang-item bo"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper -->
+
+            <div class="about-testimonial swiper mySwiper">
+              <div class="test-flex swiper-wrapper">
+                <div class="swiper-slide">
+
+                  <div class="test-box box1">
+                    <p class="test-par">
+                      "My motivation is customer satisfaction. Trust me and
+                      trust your growth asset management to my expertise
+                      gained over the years. My goal is continuous
+                      achievement.!"
+                    </p>
+
+                    <div class="test-person">
+                      <div class="per-img">
+                        <img src="assets/imgs/per1.png" alt="Person image" />
+                      </div>
+                      <div class="person-text">
+                        <h5 class="person-name">Hamdy Algebali</h5>
+                        <p class="person-jop">customer Support</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="test-box box2">
+                    <p class="test-par">
+                      "Hi there!"
+                    </p>
+                    <div class="test-person">
+                      <div class="per-img">
+                        <img src="assets/imgs/per2.png" alt="Person image" />
+                      </div>
+                      <div class="person-text">
+                        <h5 class="person-name">Mohamed Algebali</h5>
+                        <p class="person-jop">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="test-box box3">
+                    <p class="test-par">
+                      "Hola!"
+                    </p>
+                    <div class="test-person">
+                      <div class="per-img">
+                        <img src="assets/imgs/per3.png" alt="Person image" />
+                      </div>
+                      <div class="person-text">
+                        <h5 class="person-name">Uncle Ahmed Algebali</h5>
+                        <p class="person-jop">Business Man</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+
+          <section class="section resume">
+            <div class="services">
+              <h2 class="title">Services</h2>
+
+              <div class="resume-box">
+
+                <div class="resume-item">
+                  <i class="bi bi-laptop"></i>
+                  <h3 class="resume-head">Full stack Development</h3>
+                  <p class="resume-par">
+                    Dedicated full-stack developer skilled in Spring and Angular seeking positions in this field.
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <i class="bi bi-front"></i>
+                  <h3 class="resume-head">Frontend Development</h3>
+                  <p class="resume-par">
+                    Dedicated full-stack developer skilled in
+                    Angular seeking positions in this field.
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <i class="bi bi-back"></i>
+                  <h3 class="resume-head">Backend Development</h3>
+                  <p class="resume-par">
+                    Dedicated full-stack developer skilled in
+                    Spring seeking positions in this field.
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <i class="bi bi-camera-reels-fill"></i>
+                  <h3 class="resume-head">Video Editing</h3>
+                  <p class="resume-par">
+                    A hardworking and detail-oriented film/video editor with over 3 years of montage camera footage,
+                    dialogue sound effects and more to produce a final film or video product.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="education">
+              <h2 class="title">Education</h2>
+              <div class="resume-box">
+
+                <div class="resume-item">
+                  <div class="resume-date">Sep 2015 — Aug 2020</div>
+                  <h3 class="resume-head"> Computer Engineering and Automatic Control</h3>
+                  <p class="resume-par">
+                    Bachelor's Degree, Faculty of Engineering, Tanta University.
+                  </p>
+                  <a class="resume-date" href="https://drive.google.com/file/d/1b2e4oDvl28nBK1XQBZ79szsV0ovmPHM7/view">
+                    Certificate</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Oct 2022 - Oct 2022</div>
+                  <h3 class="resume-head"> Deploy Java Spring Apps Online (AWS)</h3>
+                  <p class="resume-par">
+                    Deploy Java Spring Apps Online to Amazon Cloud (AWS) , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/deploy-java-spring-apps-online/"> Course
+                    Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Oct 2022 - Oct 2022</div>
+                  <h3 class="resume-head"> Hibernate: Advanced Development Techniques</h3>
+                  <p class="resume-par">
+                    Hibernate: Advanced Development Techniques , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/hibernate-tutorial-advanced/"> Course
+                    Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Oct 2022 - Oct 2022</div>
+                  <h3 class="resume-head"> Full Stack: Angular and Spring Website</h3>
+                  <p class="resume-par">
+                    Full Stack: Angular and Java Spring Boot E-Commerce Website , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/">
+                    Course Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Sep 2022 - Sep 2022</div>
+                  <h3 class="resume-head"> Spring & Hibernate for Beginners</h3>
+                  <p class="resume-par">
+                    Spring & Hibernate for Beginners (includes Spring Boot) , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/spring-hibernate-tutorial/"> Course Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Aug 2022 - Aug 2022</div>
+                  <h3 class="resume-head"> Java Server Faces for Beginners</h3>
+                  <p class="resume-par">
+                    JSF 2.2 - Java Server Faces for Beginners - Build a DB App , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/jsf-tutorial/"> Course Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">Aug 2022 - Aug 2022</div>
+                  <h3 class="resume-head"> JSP, Servlets and JDBC for Beginners</h3>
+                  <p class="resume-par">
+                    JSP, Servlets and JDBC for Beginners: Build a Database App , Udemy Instructor ـ Chad Darby.
+                  </p>
+                  <a class="resume-date" href="https://www.udemy.com/course/jsp-tutorial/"> Course Info</a>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">June 2018 - July 2018 </div>
+                  <h3 class="resume-head">CCNA </h3>
+                  <p class="resume-par">
+                    Basics of CCNA at Creative Group.
+                  </p>
+                  <a class="resume-date" href="https://drive.google.com/file/d/1wOIznQ_vIItQTTLT9oYVmdlpknZuiGKw/view">
+                    Certificate</a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="experience">
+              <h2 class="title">Experience</h2>
+
+              <div class="resume-box">
+
+                <div class="resume-item">
+                  <div class="resume-date">June 2021 – May 2022</div>
+                  <h3 class="resume-head"> Web Developer (confidential)</h3>
+                  <p class="resume-par">
+                    at <a class="resume-date">Egyptian Armed Forces</a> - Egypt.
+                  <ul class="resume-par">
+                    <li> • Designed and developed new FAX, Afrad and education systems.</li>
+                  </ul>
+                  </p>
+                </div>
+
+                <div class="resume-item">
+                  <div class="resume-date">July 2019 – Aug 2019</div>
+                  <h3 class="resume-head">Web Developer</h3>
+                  <p class="resume-par">
+                    at <a class="resume-date" href="https://www.ong-it.com/our-location"> ONG-IT TechServ LLC</a>, Egypt
+                    - Sheraton Using the following technologies:
+                  <ul class="resume-par">
+                    <li> • Java Script</li>
+                  </ul>
+                  <ul class="resume-par">
+                    <li> • Ajax, Leaflet & Valhalla’s API</li>
+                  </ul>
+                  <ul class="resume-par">
+                    <li> • Valhalla Server</li>
+                  </ul>
+                  <ul class="resume-par">
+                    <li> • HTML, CSS</li>
+                  </ul>
+                  <a class="resume-date" href="https://drive.google.com/file/d/1KCrUEObObltyISmjFiU96aB6VpdqPVtt/view">
+                    Certificate</a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <section class="section works">
+            <h2 class="works-head">PORTFOLIO</h2>
+            <h3 class="works-title">See My Ausome Work</h3>
+            <span class="works-show"></span>
+            <div class="works-items">
+
+              <div class="items-buts">
+                <button class="work-but active-but" aria-label="Works items button" data-type="all">
+                  All
+                </button>
+
+                <button class="work-but" aria-label="Works items button" data-type="front">
+                  Front-end
+                </button>
+
+                <button class="work-but" aria-label="Works items button" data-type="js">
+                  JS
+                </button>
+
+                <button class="work-but" aria-label="Works items button" data-type="Backend">
+                  Backend
+                </button>
+              </div>
+
+              <div class="items-projects">
+
+                <div class="project-box" data-pro="front">
+                  <img src="assets/imgs/imgPro/11.jpg" alt="Project image" />
+                  <div class="project-overlay">
+                    <div class="project-icon">
+                      <a href="https://github.com/ElsayedMosad/DeliverySASS.git" class="box-link" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://elsayedmosad.github.io/DeliverySASS/" class="box-link" target="_blank">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="box-link">
+                        <i class="bi bi-binoculars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-pro="front">
+                  <img src="assets/imgs/imgPro/4.jpg" alt="Project image" />
+                  <div class="project-overlay">
+                    <div class="project-icon">
+                      <a href="https://github.com/ElsayedMosad/Restaurant.git" class="box-link" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://elsayedmosad.github.io/Restaurant/" class="box-link" target="_blank">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="box-link">
+                        <i class="bi bi-binoculars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-pro="js">
+                  <img src="assets/imgs/imgPro/1.jpg" alt="Project image" />
+                  <div class="project-overlay">
+                    <div class="project-icon">
+                      <a href="https://github.com/ElsayedMosad/toDoList.git" class="box-link" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://elsayedmosad.github.io/toDoList/" class="box-link" target="_blank">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="box-link">
+                        <i class="bi bi-binoculars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-pro="js">
+                  <img src="assets/imgs/imgPro/9.jpg" alt="Project image" />
+                  <div class="project-overlay">
+                    <div class="project-icon">
+                      <a href="https://github.com/ElsayedMosad/crudWithJavascript.git" class="box-link" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://elsayedmosad.github.io/crudWithJavascript/" class="box-link" target="_blank">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="box-link">
+                        <i class="bi bi-binoculars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-box" data-pro="Backend">
+                  <img src="assets/imgs/imgPro/3.jpg" alt="Project image" />
+                  <div class="project-overlay">
+                    <div class="project-icon">
+                      <a href="https://github.com/ElsayedMosad/Re_HTML_and_CSS_template_one.git" class="box-link"
+                        target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                      <a href="https://elsayedmosad.github.io/Re_HTML_and_CSS_template_one/" class="box-link"
+                        target="_blank">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                      <a href="#" class="box-link">
+                        <i class="bi bi-binoculars"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+          <section class="section blog">
+            <h2 class="title">Latest News</h2>
+            <div class="blog-items">
+
+              <div class="blog-box">
+                <div class="blog-img">
+                  <img src="assets/imgs/02.jpg" alt="Blog imgage" />
+                  <div class="blog-img-overlay">
+                    <i class="bi bi-journal-text"></i>
+                  </div>
+                </div>
+
+                <div class="blog-text">
+                  <span class="blog-date"> 20 june 2021 </span>
+                  <h3 class="blog-title">
+                    Stay informed about the latest cameras and money of that
+                  </h3>
+                  <p class="blog-par">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut.
+                  </p>
+                </div>
+              </div>
+
+              <div class="blog-box">
+                <div class="blog-img">
+                  <img src="assets/imgs/03.jpg" alt="Blog imgage" />
+
+                  <div class="blog-img-overlay">
+                    <i class="bi bi-journal-text"></i>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <span class="blog-date"> 20 june 2021 </span>
+                  <h3 class="blog-title">
+                    Stay informed about the latest cameras and money of that
+                  </h3>
+                  <p class="blog-par">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut.
+                  </p>
+                </div>
+              </div>
+
+
+            </div>
+          </section>
+          <section class="section contact">
+            <h2 class="title">Get in Touch</h2>
+            <div class="contact-boxs">
+
+              <div class="map-box">
+                <!-- <div id="map"></div> -->
+                <iframe title="my-location"
+                  src="https://maps.google.com/maps?q=Mit%20Mohsen&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%"
+                  height="100%" style="border: 0" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+              <div class="info-content">
+                <div class="info-email">
+                  <div class="info-box">
+                    <i class="bi bi-envelope-open"></i>
+                    <div class="info-text">
+                      <h5 class="info-head">Mail Me</h5>
+                      <span class="info-span"> <a class="info-span" href="mailto:ahmedelgebalywork@gmail.com">
+                          ahmedelgebalywork@gmail.com </a> </span>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <i class="bi bi-telephone"></i>
+                    <div class="info-text">
+                      <h5 class="info-head">Call Me On</h5>
+                      <span class="info-span">+20 106 620 5027 </span>
+                      <span class="info-span">+20 101 297 8226 </span>
+                    </div>
+                  </div>
+
+                  <div class="info-box">
+                    <i class="bi bi-whatsapp"></i>
+                    <div class="info-text">
+                      <h5 class="info-head">My Whatsapp</h5>
+                      <span class="info-span"><a class="info-span"
+                          href="https://api.whatsapp.com/send/?phone=%2B201066205027&text&type=phone_number&app_absent=0">+20
+                          106 620 5027</a>
+                      </span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="info-form">
+                  <form action="" class="form">
+                    <input type="text" name="name" id="name" placeholder="Complate Name" />
+                    <input type="email" name="email" id="email" placeholder="Email Address" />
+                    <input type="text" name="number" id="number" placeholder="Phone number" />
+                    <textarea name="message" id="message" cols="30" rows="7" placeholder="Your message"></textarea>
+                    <input type="submit" value="Send Message" class="submit" />
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="right-side">
+        <div class="date">
+          <div class="date-number" id="date-day">3</div>
+          <div class="date-info">
+            <div class="date-month" id="date-month">A</div>
+            <div class="date-year" id="date-year">20</div>
+          </div>
+        </div>
+        <div class="follow">
+          <p class="follow-me">Follow Me</p>
+          <span class="follow-line"></span>
+          <div class="follow-social">
+
+            <a href="https://api.whatsapp.com/send/?phone=%2B201066205027&text&type=phone_number&app_absent=0"
+              class="social-whats follow-link" aria-label="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i>
+            </a>
+
+            <a href="https://www.facebook.com/ahmed.elgebaly.7334" class="social-face follow-link" aria-label="facebook"
+              target="_blank"><i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="https://github.com/ahmdalgebali" class="social-github follow-link" aria-label="github"
+              target="_blank"><i class="bi bi-github"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="move">
+
+        <button class="move-up move-but" aria-label="Move Up">
+          <i class="bi bi-chevron-compact-up"></i>
+        </button>
+
+        <button class="move-down move-but" aria-label="Move Down">
+          <i class="bi bi-chevron-compact-down"></i>
+        </button>
+
+      </div>
+    </div>
+  </div>
+  <!-- Cursor animaition -->
+  <div class="cursor cursor-1"></div>
+  <div class="cursor cursor-2"></div>
+  <!-- Main Js file -->
+  <script src="assets/js/script.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
