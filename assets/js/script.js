@@ -117,18 +117,18 @@ const moveButs = document.querySelectorAll(".move .move-but");
 moveButs.forEach((but) => {
   but.addEventListener("click", () => {
     if (but.classList.contains("move-up")) {
-      currentIndex++;
-      if (currentIndex === navLinks.length) {
-        currentIndex = 0;
+      currentIndex--;
+      if (currentIndex === -1) {
+        currentIndex = navLinks.length - 1;
       }
       showCurrentSec(currentIndex);
       removeClass(navLinks, "active-link", currentIndex);
       classPlayLeft(currentIndex);
       audioOne.play();
     } else if (but.classList.contains("move-down")) {
-      currentIndex--;
-      if (currentIndex === -1) {
-        currentIndex = navLinks.length - 1;
+      currentIndex++;
+      if (currentIndex === navLinks.length) {
+        currentIndex = 0;
       }
       showCurrentSec(currentIndex);
       removeClass(navLinks, "active-link");

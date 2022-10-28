@@ -1143,6 +1143,7 @@ button {
 }
 .about .about-skills .skills-text .skills-par {
   font-size: var(--small-font-size);
+  font-weight: 200;
   margin: 10px 0;
   line-height: 1.9;
   padding-right: 10px;
@@ -1152,7 +1153,7 @@ button {
   margin: 25px 0;
 }
 .about .about-skills .about-knowledge li {
-  margin: 25px 20px;
+  margin: 10px 20px;
   font-size: var(--normal-font-size);
   position: relative;
 }
@@ -1421,7 +1422,7 @@ button {
   font-size: var(--normal-font-size);
   color: var(--c-color);
   font-weight: 300;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 576px) {
