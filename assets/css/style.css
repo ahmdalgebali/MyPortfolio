@@ -643,7 +643,7 @@ button {
   display: block;
   width: 2px;
   height: 70px;
-  margin: 35px auto 0px;
+  margin: 35px auto 0px;/**/
   background-color: var(--var-color);
 }
 .content .right-side .follow .follow-social {
