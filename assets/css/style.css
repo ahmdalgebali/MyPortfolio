@@ -1678,7 +1678,7 @@ button {
 .blog .blog-box {
   padding: 0 10px 15px 0;
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .blog .blog-box::after {
   content: "";
